@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PlannerOne deploy</title>
+    <script src="./js/reqwest.min.js"></script>
+    <script src="./js/deploy.js"></script>
+</head>
+<body>
+    <form action="http://localhost:1337/deploy/send" enctype="multipart/form-data" method="post">
+    <input type="file" name="package" multiple="multiple"><br>
+    <input type="submit" value="Upload">
+    </form>
+</body>    
+</html>

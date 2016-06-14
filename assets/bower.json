@@ -1,0 +1,20 @@
+{
+  "name": "assets",
+  "authors": [
+    "Vincent Carluer <vcarluer@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reqwest": "^2.0.5"
+  }
+}
